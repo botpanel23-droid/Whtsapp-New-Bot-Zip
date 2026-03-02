@@ -289,7 +289,7 @@ io.on("connection", (socket) => {
 });
 
 // ====== START SERVER ======
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
   console.log(`\n🤖 WA Bot Panel running at http://localhost:${PORT}\n`);
   addLog("info", `Server started on port ${PORT}`);
