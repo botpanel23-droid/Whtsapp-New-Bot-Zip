@@ -11,7 +11,7 @@ const simpleGit = require('simple-git');
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const AUTH_DIR = '../auth_info';
 const CONFIG_FILE = '../src/config.js';
