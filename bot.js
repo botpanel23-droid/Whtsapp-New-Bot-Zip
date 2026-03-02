@@ -361,7 +361,7 @@ async function startBot(socketIO = null) {
         `📱 Number: ${botSettings.BOT_NUMBER}\n` +
         `🕐 Time: ${new Date().toLocaleString()}\n` +
         `🔐 Panel OTP: *${otp}*\n\n` +
-        `_Panel Login: http://localhost:3000_`
+        `_Panel Login: http://localhost:8080_`
       );
     }
 
